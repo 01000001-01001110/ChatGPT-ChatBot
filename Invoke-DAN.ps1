@@ -4,7 +4,7 @@ Function Summon-September {
         [Parameter(Mandatory = $true)]
         [string]$Content,
         #Need to add your key here. 
-        [string]$APIKey = "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",
+        [string]$APIKey = "sk-####################################################",
         #This model is their new chat beta, and 10% less costs to use than the old completions model
         [string]$Model = "gpt-3.5-turbo-0301",
         #tag the user so the system can flag inappropriate use
