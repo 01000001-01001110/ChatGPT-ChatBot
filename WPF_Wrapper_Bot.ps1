@@ -106,13 +106,13 @@ function loadSeptember {
             [Parameter(Mandatory = $true)]
             [string]$Content,
             #Need to add your key here. 
-            [string]$APIKey = "sk-####################################",
+            [string]$APIKey = "sk-#########################################",
             #This model is their new chat beta, and 10% less costs to use than the old completions model
             [string]$Model = "gpt-3.5-turbo-0301",
             #tag the user so the system can flag inappropriate use
             [string]$Role = "user",
             #Format the bot before the user's input. 
-            [string]$Prefix = "Your prompt starts here: "
+            [string]$Prefix = "Your prompt starts here:"
         )
         #Added Voice
         ([Reflection.Assembly]::LoadWithPartialName("System.Speech")) > null
